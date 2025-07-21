@@ -1,13 +1,13 @@
 {
   "menu": [
-    { "href": "#section-prices", "text": "ціни та послуги" },
-    { "href": "#section-about", "text": "про нас" },
-    { "href": "#section-works", "text": "наші роботи" },
-    { "href": "#section-contacts", "text": "контакти" }
+    { "href": "#section-prices", "text": "Ціни та послуги" },
+    { "href": "#section-about", "text": "Про нас" },
+    { "href": "#section-works", "text": "Наші роботи" },
+    { "href": "#section-contacts", "text": "Контакти" }
   ],
   "instagram": {
-    "href": "#",
-    "text": "@_black_li__beauti_akademy ",
+    "href": "https://www.instagram.com/taya_kravchenko_pmu?igsh=MW5zdmczY3B5aW02ag%3D%3D&utm_source=qr",
+    "text": "BLACK-li academy ",
     "logo": "/instalogo.png",
     "logoAlt": "instagram logo",
     "logoWidth": 39,

@@ -10,6 +10,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  &__headingList {
+    @include adaptiveValue("margin-top", 101, 38, 0, 1920, 400);
+    @include adaptiveValue("font-size", 30, 12, 0, 1920, 400);
+    font-weight: 400;
+    display: flex;
+    @include adaptiveValue("gap", 21, 6, 0, 1920, 400);
+    span {
+      color: #fbe67b;
+    }
+  }
   &__textSection {
     display: flex;
     justify-content: flex-start;
@@ -20,6 +30,7 @@
       text-transform: uppercase;
       color: #fff;
     }
+
     &_big {
       font-weight: 900;
       font-size: 200px;
@@ -68,7 +79,7 @@
     }
   }
   &__prices {
-    @include adaptiveValue("margin-top", 91, 30, 0, 1920, 400);
+    @include adaptiveValue("margin-top", 41, 20, 0, 1920, 400);
     display: flex;
     flex-direction: column;
     @include adaptiveValue("gap", 41, 20, 0, 1920, 400);

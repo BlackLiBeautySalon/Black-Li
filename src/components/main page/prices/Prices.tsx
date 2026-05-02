@@ -15,8 +15,26 @@ const Prices = () => {
           <h3 className="prices__textSection_smal">{data.titleSmall}</h3>
           <p>{data.description}</p>
         </div>
+        <h4 className="prices__headingList">
+          <span>₴</span> Ціни у виконанні майстра:
+        </h4>
         <ul className="prices__prices">
           {data.items.map((item, idx) => (
+            <li className="prices__price" key={idx}>
+              <p>
+                <span dangerouslySetInnerHTML={{ __html: item.name }} />
+                <span className="prices__price_separator"></span>
+                <span>{item.price}</span>
+              </p>
+            </li>
+          ))}
+        </ul>
+        <h4 className="prices__headingList">
+          <span>₴</span> Ціни у виконанні топ майстра <br />
+          (викладч академії):
+        </h4>
+        <ul className="prices__prices">
+          {data.items2.map((item, idx) => (
             <li className="prices__price" key={idx}>
               <p>
                 <span dangerouslySetInnerHTML={{ __html: item.name }} />

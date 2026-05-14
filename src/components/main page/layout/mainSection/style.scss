@@ -1,4 +1,4 @@
-@import "@/styles/base/mixins.scss";
+@use "@/styles/base/mixins.scss" as *;
 
 .mainSection {
   min-height: calc(100dvh - 112px - 50px); /* якщо хедер має 60px */

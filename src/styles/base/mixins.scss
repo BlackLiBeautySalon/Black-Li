@@ -1,11 +1,12 @@
 //Підключення шрифту
 @use "sass:math";
-@import "variables";
+@use "variables" as *;
 @mixin font($font_name, $file_name, $weight, $style) {
   @font-face {
     font-family: $font_name;
     font-display: swap;
-    src: url("../fonts/#{$file_name}.woff2") format("woff2"),
+    src:
+      url("../fonts/#{$file_name}.woff2") format("woff2"),
       url("../fonts/#{$file_name}.woff") format("woff");
     font-weight: #{$weight};
     font-style: #{$style};
@@ -106,10 +107,8 @@
     // Якщо не підтримується clamp();
     @supports not (#{$property}: $propertyValue) {
       #{$property}: calc(
-        #{toRem($minSize)} + #{$addSize} * (100vw - #{toRem($widthTo)}) / #{math.div(
-            $widthFrom,
-            16
-          ) - math.div($widthTo, 16)}
+        #{toRem($minSize)} + #{$addSize} * (100vw - #{toRem($widthTo)}) /
+          #{math.div($widthFrom, 16) - math.div($widthTo, 16)}
       );
     }
   }

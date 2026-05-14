@@ -2,40 +2,28 @@
   "title": "Наші роботи",
   "slides": [
     {
-      "image": "/lips1.JPG",
-      "alt": "image of work",
-      "h4": "Перманентний макіяж губ",
-      "p": "Дуже задоволена результатом! Губи виглядають природно, колір ідеально підібраний."
+      "image": "/1.JPG",
+      "alt": "image of work"
     },
     {
-      "image": "/image7.png",
-      "alt": "image of work",
-      "h4": "Назва процедури 2",
-      "p": "Текст відгуку від людини, це сам відгук 2"
+      "image": "/2.JPG",
+      "alt": "image of work"
     },
     {
-      "image": "/image7.png",
-      "alt": "image of work",
-      "h4": "Назва процедури 3",
-      "p": "Текст відгуку від людини, це сам відгук 3"
+      "image": "/3.JPG",
+      "alt": "image of work"
     },
     {
-      "image": "/women.png",
-      "alt": "image of work",
-      "h4": "Назва процедури 4",
-      "p": "Текст відгуку від людини, це сам відгук 4"
+      "image": "/4.JPG",
+      "alt": "image of work"
     },
     {
-      "image": "/image7.png",
-      "alt": "image of work",
-      "h4": "Назва процедури 5",
-      "p": "Текст відгуку від людини, це сам відгук 5"
+      "image": "/5.png",
+      "alt": "image of work"
     },
     {
-      "image": "/image7.png",
-      "alt": "image of work",
-      "h4": "Назва процедури 6",
-      "p": "Текст відгуку від людини, це сам відгук 6"
+      "image": "/6.JPG",
+      "alt": "image of work"
     }
   ],
   "moreButton": {

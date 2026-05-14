@@ -68,10 +68,12 @@ const Works = () => {
                 height={1186}
               />
             </div>
-            <div className="workInfo">
-              <h4>{slide.h4}</h4>
-              <p>{slide.p}</p>
-            </div>
+            {slide.h4 ? (
+              <div className="workInfo">
+                <h4>{slide.h4}</h4>
+                <p>{slide.p}</p>
+              </div>
+            ) : null}
           </SwiperSlide>
         ))}
       </Swiper>
